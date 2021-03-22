@@ -1,8 +1,11 @@
-function add(number1,number2) {
-  return number1 + number2;
+function cToF (){
+  const fahrenheit = parseInt((celsius * 2 + 30));
+  alert(fahrenheit + " °F");
 }
 
-const number1 = parseInt(prompt("Enter a number:"));
-const number2 = parseInt(prompt("Enter another number:"));
-const result = add(number1, number2);
-alert(result);
+
+
+const celsius = prompt("enter a celsius degree");
+// const fahrenheit = parseInt((celsius * 2 + 30));
+// alert(fahrenheit);
+cToF();
