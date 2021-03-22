@@ -1,17 +1,11 @@
-jQuery("h1").click(function() {
-  alert("This is a header.");
-  alert("I told you, THIS IS A HEADER!");
-});
+let input1=prompt("Enter a sentence"); 
+console.log(input1);
 
-jQuery("p").click(function() {
-  alert("This is a paragraph.");
-});
+function caps() {
+  let inSlice =input1.slice(0,1);
+  inSlice.toUpperCase();
+  console.log(inSlice);
+}
 
-jQuery("img").click(function() {
-  alert("This is an image.");
-});
-
-jQuery("body").click(function(){
-  alert("This is the body.");
-});
+caps();
 
